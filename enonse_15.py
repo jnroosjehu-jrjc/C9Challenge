@@ -1,13 +1,14 @@
 #coding: UTF-8
 
 
-chn = "hiddenXendpass"
+chn = "hiddenXPeopleendpass"
 
 a = chn.index("hidden")
-
+a = a + len("hidden")
 b = chn.index("endpass")
 
-print(a)
-print(b)
+
+rch = chn[a:b]
+
 
 print(rch)
